@@ -6,6 +6,7 @@
   "author": "7777sea <923384777@qq.com>",
   "license": "MIT",
   "devDependencies": {
+    "element-ui": "^2.14.0",
     "vuepress": "^1.7.1"
   },
   "scripts": {

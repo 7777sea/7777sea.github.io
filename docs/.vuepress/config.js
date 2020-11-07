@@ -6,5 +6,10 @@ module.exports = {
     ],
     themeConfig: {
         logo: '/assets/img/logo.png',
+        repo: 'https://github.com/7777sea/7777sea.github.io',
+        nav: [
+            { text: 'Home', link: '/' },
+            { text: 'Guide', link: '/guide/' },
+        ]
     }
 }
