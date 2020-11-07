@@ -1,0 +1,11 @@
+{
+  "name": "7777sea.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/7777sea/7777sea.github.io.git",
+  "author": "7777sea <923384777@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  }
+}
