@@ -6,8 +6,11 @@ set -e
 # 生成静态文件
 npm run docs:build
 
-# 进入生成的文件夹
+# 进入生成的文件夹  //$(date)
 cd docs/.vuepress/dist
+touch README.md
+echo '# welcome to Mercury Blog' > README.md
+echo '最后发布时间为:' $(date) >> README.md
 
 git init
 git add -A
