@@ -10,15 +10,18 @@ module.exports = {
         repo: 'https://github.com/7777sea/7777sea.github.io',
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'Blog', link: '/Blog/' },
-            { text: 'Record', link: '/Record/' },
+            { text: 'Blog', link: '/blog/' },
+            { text: 'Record', link: '/record/' },
         ],
         sidebar: {
             "/articles/": [
               "/articles/home.html",
             ],
-          },
-          sidebarDepth: 2,
-          smoothScroll: true,
+            "/blog/": [
+                "/blog/blog1.html"
+            ]
+        },
+        sidebarDepth: 2,
+        smoothScroll: true,
     }
 }
