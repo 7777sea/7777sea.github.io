@@ -18,7 +18,16 @@ module.exports = {
               "/articles/home.html",
             ],
             "/blog/": [
-                "/blog/blog1.html"
+                ["/blog/blog1.html", '前言'],
+                {
+                    title: '数据结构',   
+                    path: '/blog/stack.html',  
+                    collapsable: false, 
+                    sidebarDepth: 1,  
+                    children: [
+                      ['/blog/stack.html', '栈']
+                    ]
+                },
             ]
         },
         sidebarDepth: 2,
