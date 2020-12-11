@@ -23,9 +23,10 @@ module.exports = {
                     title: '数据结构',   
                     path: '/blog/stack.html',  
                     collapsable: false, 
-                    sidebarDepth: 1,  
+                    sidebarDepth: 2,  
                     children: [
-                      ['/blog/stack.html', '栈']
+                      ['/blog/stack.html', '栈'],
+                      ['/blog/heap.html', '堆']
                     ]
                 },
             ]
