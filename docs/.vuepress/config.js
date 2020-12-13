@@ -10,7 +10,7 @@ module.exports = {
         repo: 'https://github.com/7777sea/7777sea.github.io',
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'Blog', link: '/blog/' },
+            { text: 'Blog', link: '/blog/blog1.html' },
             { text: 'Record', link: '/record/' },
         ],
         sidebar: {
