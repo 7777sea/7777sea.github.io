@@ -26,8 +26,7 @@ module.exports = {
                     sidebarDepth: 2,  
                     children: [
                       ['/blog/stack.html', '栈'],
-                      ['/blog/heap.html', '堆'],
-                      ['/blog/list.html', '链表']
+                      ['/blog/heap.html', '堆']
                     ]
                 },
             ]
