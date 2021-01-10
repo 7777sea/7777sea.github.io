@@ -11,7 +11,7 @@ module.exports = {
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Blog', link: '/blog/blog1.html' },
-            { text: 'Record', link: '/record/record.html' },
+            { text: 'Record', link: '/record/' },
         ],
         sidebar: {
             "/articles/": [
@@ -33,7 +33,7 @@ module.exports = {
                 },
             ],
             "/record/": [
-                ["/record/record.html", '.'],
+                ["/record/record.html", '前言'],
             ]
         },
         sidebarDepth: 2,

@@ -33,7 +33,7 @@ module.exports = {
                 },
             ],
             "/record/": [
-                ["/record/record.html", '.'],
+                ["/record/record.html", '前言'],
             ]
         },
         sidebarDepth: 2,
